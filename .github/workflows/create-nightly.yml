@@ -42,7 +42,7 @@ jobs:
 
       - name: Create 7z archive
         run: |
-          7z a pyui-v${{ steps.get_sha.outputs.short_sha }}.7z ./ \
+          7z a MiyooFlipPortMaster-v${{ steps.get_sha.outputs.short_sha }}.7z ./ \
             -xr'!.git' \
             -xr'!.github' \
             -xr'!.gitignore' \
