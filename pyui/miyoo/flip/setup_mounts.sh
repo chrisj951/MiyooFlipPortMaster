@@ -1,17 +1,5 @@
 #!/bin/sh
 
-if [ ! -d /mnt/SDCARD/Saves/userdata-flip ]; then
-    mkdir /mnt/SDCARD/Saves/userdata-flip
-    cp -R /userdata/* /mnt/SDCARD/Saves/userdata-flip
-    mkdir -p /mnt/SDCARD/Saves/userdata-flip/bin
-    mkdir -p /mnt/SDCARD/Saves/userdata-flip/bluetooth
-    mkdir -p /mnt/SDCARD/Saves/userdata-flip/cfg
-    mkdir -p /mnt/SDCARD/Saves/userdata-flip/localtime
-    mkdir -p /mnt/SDCARD/Saves/userdata-flip/timezone
-    mkdir -p /mnt/SDCARD/Saves/userdata-flip/lib
-    mkdir -p /mnt/SDCARD/Saves/userdata-flip/lib/bluetooth
-fi
-
 /mnt/SDCARD/pyui/miyoo/flip/recombine_large_files.sh > /mnt/SDCARD/pyui/logs/recombine_large_files.log  2>&1
 /mnt/SDCARD/pyui/miyoo/flip/mount_32bit_libs.sh > /mnt/SDCARD/pyui/logs/mount_32bit_libs.log  2>&1
 /mnt/SDCARD/pyui/common/mount_libs.sh > /mnt/SDCARD/pyui/logs/mount_libs.log  2>&1
