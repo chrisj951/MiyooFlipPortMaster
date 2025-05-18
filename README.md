@@ -8,3 +8,6 @@ Includes the needed libraries and sets them up on startup to ensure most ports r
 - Mono ports
 
 There's a few games that don't run but from testing there aren't too many
+
+## Discord
+https://discord.gg/Z7AEPNAE9n
