@@ -6,12 +6,12 @@ Adds portmaster support to the Miyoo Flip's Stock OS
 (Verified on 20250509213001 but theoretically should work on earlier versions too)
 
 ## Control Swapping
-- Ability to swap between X360 and Nintendo controls :
+- Ability to swap between X360 and N controls :
     -   Hover over any game in the Game/PM section
     -   Press 'X' and then click the controls option
     -   Will be returned back to the game selection list
     -   Press 'X' again and now press Launch
-    -   All games going forward will now use the selected control (X360 vs Nintendo)
+    -   All games going forward will now use the selected control (X360 vs N)
 
 ## Background
 This is a split off of PyUI to include just the portions needed for PortMaster to run on the Miyoo Flip
@@ -19,9 +19,9 @@ Includes the needed libraries and sets them up on startup to ensure most ports r
 
 ## Additions
 - Included lib folder should minimize errors due to missing *.so files
-- 32-bit libs included for 32-bit ports like AM2R
+- 32-bit libs included for 32-bit ports
 - Swapped out mali driver when launching a port to ensure compatability with Godot 4 ports
-- Custom ld-linux-armhf.so.3 so ports which rely on 64-bit and 32-bit simultaneously work (e.g. Braid)
+- Custom ld-linux-armhf.so.3 so ports which rely on 64-bit and 32-bit simultaneously work 
 - Places port images into the proper directory for the UI to show it
 - Converts JPGs to PNG so they display in the UI as well
 
