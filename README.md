@@ -22,6 +22,8 @@ Includes the needed libraries and sets them up on startup to ensure most ports r
 - 32-bit libs included for 32-bit ports like AM2R
 - Swapped out mali driver when launching a port to ensure compatability with Godot 4 ports
 - Custom ld-linux-armhf.so.3 so ports which rely on 64-bit and 32-bit simultaneously work (e.g. Braid)
+- Places port images into the proper directory for the UI to show it
+- Converts JPGs to PNG so they display in the UI as well
 
 ## Support
 - 64-bit ports
