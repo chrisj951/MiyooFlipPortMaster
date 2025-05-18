@@ -43,4 +43,4 @@ This is the version that has been in SPRUCE for since the beginning of April, mo
 ## Thanks
 - Thanks to the PortMaster team for building PortMaster and all of the ports
 - Thanks to the muOS team for helping provide prebuilt libs for the ports to use
-- SPRUCE team for helping with testing of this
+- SPRUCE team / discord for helping with testing of this
