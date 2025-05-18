@@ -1,9 +1,9 @@
-Licensing is the same as PortMaster as this is just getting their tool running on the MiyooFlip:
-
+Note this license only applies to the parts worked on / added by me.
+PortMaster and other software included have their own licenses that must be followed
 
 MIT License
 
-Copyright (c) 2023-2024 Jacob
+Copyright (c) 2025 Christopher Jacobs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
